@@ -1,0 +1,103 @@
+div p {
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    background-color: rgb(199, 255, 186);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1450px;
+    margin: 0 0;
+}
+
+.hise li{
+    padding: 27px 70px;
+    margin-left: 0px;
+    color: black;
+    border: 5px solid;
+    font-size:30px;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+body{
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.btn--orange,
+a.btn--orange {
+    color: #fff;
+    background-color: #000000;
+}
+
+.btn--orange:hover,
+a.btn--orange:hover {
+    color: #fff;
+    background: #000000;
+}
+
+a.btn--radius {
+    text-align: center;
+    border-radius: 2vh;
+}
+
+.mse{
+    width: 10px;
+}
+
+.hise{
+    width: 400px;
+}
+
+.nse{
+    display: flex;
+    justify-content: space-around;
+}
+.vse{
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gazo{
+    width: 400px;
+    height: auto;
+}
+
+.hise{
+    /* margin-right: 40px; */
+    /* margin-top: 40px; */
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+transition: .3s;
+}
+
+.btn:hover{
+    transform: scale(1.1)
+}
+.lse {
+    color: #fff;
+    background: #000000;
+    font-size: 30px;
+}
+.lse {
+    text-align: center;
+    border-radius: 2vh;
+}

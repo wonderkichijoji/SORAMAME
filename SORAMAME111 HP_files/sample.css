@@ -1,0 +1,45 @@
+div p {
+    display: inline-block;
+}
+
+.flex{
+    display: flex;
+}
+.btn--orange,
+a.btn--orange {
+    color: #fff;
+    background-color: #000000;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+    color: #fff;
+    background: #000000;
+}
+
+a.btn--radius {
+    text-align: center;
+    border-radius: 100vh;
+}
+
+.nse{
+    display: flex;
+    justify-content: space-around;
+}
+.vse{
+    display: flex;
+    flex-flow: column;
+
+}
+
+.gazo{
+    width: 400px;
+    height: auto;
+}
+
+.btn{
+transition: .3s;
+}
+
+.btn:hover{
+    transform: scale(1.1)
+}
